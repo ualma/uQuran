@@ -6,5 +6,6 @@
 
 قۇرئاندىكى تىمىلار ۋە ئەرەپچە ئۇيغۇچە لوغەت قوشۇلدىغان، ھەپتىيەك ئىقتىدارىدىن پايدىلىنىپ قورئان ئوقۇشنى ئۆگىنەلەيسىز.
 
+[Android چۈشۈرۈش](https://raw.githubusercontent.com/ualma/uQuran/master/outher/uQuran1.0.0.apk)
 
 ![image](https://raw.githubusercontent.com/ualma/uQuran/master/outher/icon.png)
