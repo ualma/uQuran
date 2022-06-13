@@ -27,6 +27,7 @@
 ![image](https://raw.githubusercontent.com/ualma/uQuran/master/outher/ScreenShot/16.PNG)
 
 # ئەسكەرتىش
+ئەپ دېتال Flutter 3.0.2 نەشىرىدە ياسالغان.
 ئەگەر سىز ئۆزىڭىز ئەسلى كودنى ئەپ دېتال قىلىپ ھاسىللىماقچى بولسىڭىز outher مۇندەرىجىسى ئىچىدىكى 
 uther\p_2.zip.001
 outher\p_2.zip.002
