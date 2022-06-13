@@ -9,3 +9,10 @@
 [Android چۈشۈرۈش](https://raw.githubusercontent.com/ualma/uQuran/master/outher/uQuran1.0.0.apk)
 
 ![image](https://raw.githubusercontent.com/ualma/uQuran/master/outher/icon.png)
+
+# ئەسكەرتىش
+ئەگەر سىز ئۆزىڭىز ئەسلى كودنى ئەپ دېتال قىلىپ ھاسىللىماقچى بولسىڭىز outher مۇندەرىجىسى ئىچىدىكى 
+uther\p_2.zip.001
+outher\p_2.zip.002
+outher\p_2.zip.003
+قاتارلىق ئۈچ ھۆججەتنى يەشسىڭىز p.zip ھۆججىتى چىققىدۇ، بۇ ھۆججەتنى  assets\images\q\p.zip ئورنىغا قويۇپ ئاندىن ھاسىللاڭ بولمىسا ھەپتىيەك پىروگراممىسى قوزغالمايدۇ.
