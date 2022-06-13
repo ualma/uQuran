@@ -7,4 +7,4 @@
 قۇرئاندىكى تىمىلار ۋە ئەرەپچە ئۇيغۇچە لوغەت قوشۇلدىغان، ھەپتىيەك ئىقتىدارىدىن پايدىلىنىپ قورئان ئوقۇشنى ئۆگىنەلەيسىز.
 
 
-![image](​https://github.com/ualma/uQuran/blob/master/outher/icon.png)
+![image](​outher/icon.png)
