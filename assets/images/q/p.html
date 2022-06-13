@@ -1,0 +1,430 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport"
+        content="initial-scale=1.0, width=device-width, height=device-height, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <style type="text/css">
+        /**app.font**/
+        html {
+            font-family: 'ALKATIP';
+        }
+
+        body {
+            background-color: #fef6e4;
+            color: #453e2d;
+            direction: rtl;
+            text-align: justify;
+            text-indent: 25px;
+        }
+
+        hr {
+            color: #453e2d;
+            background-color: #453e2d;
+            height: 1px;
+            border: none;
+        }
+
+        p {
+            font-size: 16px;
+            text-align: justify;
+            text-indent: 25px;
+            font-family: ALKATIP;
+            line-height: 200%;
+        }
+
+        .ibnikasirTitle {
+            font-size: 18px;
+            font-family: ALKATIP;
+            text-align: center;
+        }
+
+        .ibnikasirTitle span {
+            font-family: 'Traditional Arabic' !important;
+        }
+
+        .text-lang-ar {
+            font-family: 'Traditional Arabic' !important;
+            font-size: 20px;
+            line-height: 250%;
+        }
+
+        .text-lang-en {
+            font-family: 'Traditional Arabic' !important;
+            direction: ltr !important;
+            font-size: 16px;
+        }
+
+        .text-lang-uy {
+            font-weight: normal;
+        }
+
+        .hedis-lang-uy {
+            /* font-weight: bold; */
+            color: #3f51b5;
+        }
+
+        .text-itag {
+            font-family: ALKATIP;
+            /* font-weight: bold; */
+            color: #3f51b5;
+        }
+
+        .st {
+            width: 100%;
+            white-space: nowarp;
+        }
+
+        .st .a {
+            white-space: nowrap;
+        }
+
+        .st .b {
+            white-space: nowrap;
+        }
+
+        .st .stt {
+            font-family: 'Traditional Arabic' !important;
+            direction: rtl !important;
+            font-size: 20px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .ltr {
+            direction: ltr !important;
+        }
+
+        .rtl {
+            direction: rtl !important;
+        }
+
+        .LTR {
+            direction: ltr;
+        }
+
+        body {
+            direction: rtl;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border-spacing: 0;
+            direction: ltr;
+        }
+
+        div table {
+            margin-top: 10px;
+        }
+
+        td {
+            text-align: center !important;
+            border: solid 1px black;
+            font-family: "Traditional Arabic";
+            font-size: 36px;
+            direction: rtl;
+            text-indent: 0px !important;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .uy {
+            font-family: ALKATIP !important;
+            font-size: 18px;
+        }
+
+        p {
+            font-family: ALKATIP !important;
+        }
+
+        span.a_web_green,
+        td.a_web_green {
+            color: #009933;
+        }
+
+        span.t_arabic_purple,
+        td.t_arabic_purple {
+            color: #cc99ff;
+        }
+
+        span.arabic_blue,
+        td.arabic_blue {
+            color: #00ccff;
+        }
+
+        span.arabic_green,
+        td.arabic_green {
+            color: #009933;
+        }
+
+        span.arabic_orange,
+        td.arabic_orange {
+            color: #ff6600;
+        }
+
+        span.arabic_purple,
+        td.arabic_purple {
+            color: #9966ff;
+        }
+
+        span.arabic_purple1,
+        td.arabic_purple1 {
+            color: #FF00FF;
+        }
+
+        span.fancy,
+        td.fancy {
+            color: #cc0000;
+        }
+
+        span.arabic5 {
+            color: #ff0000;
+            font-weight: bold;
+        }
+
+        span.tanween {
+            color: #009933;
+        }
+
+        .td2 {
+            border: 3px outset #c0c0c0;
+        }
+
+        span.dua {
+            color: #cc3300;
+            font-style: italic;
+            position: absolute;
+        }
+
+        span.arabic3 {
+            color: #ff0000;
+        }
+
+        span.arabic4 {
+            position: absolute;
+        }
+
+        span.td1 {
+            color: #cc3300;
+        }
+
+        span.arabic {
+            color: #996600;
+        }
+
+        .text {
+            color: #800000;
+        }
+
+        .line {
+            height: 21px;
+            text-align: left;
+            color: #800000;
+            border-left-width: 0;
+            border-right-width: 0;
+            border-top-width: 0;
+        }
+
+        .line_dotted {
+            height: 21px;
+            text-align: left;
+            color: #800000;
+            border-left-style: dotted;
+            border-left-width: 0;
+            border-right-style: dotted;
+            border-right-width: 0;
+            border-top-style: dotted;
+            border-top-width: 0;
+            border-bottom-style: dotted;
+        }
+
+        h1 {
+            font-family: ALKATIP;
+            font-size: 14px;
+            margin: 0px;
+        }
+
+        h2 {
+            font-family: ALKATIP;
+            font-size: 16px;
+            margin: 0px;
+        }
+
+        h3 {
+            font-family: ALKATIP;
+            font-size: 18px;
+            margin: 0px;
+        }
+
+        h4 {
+            font-family: ALKATIP;
+            font-size: 20px;
+            margin: 0px;
+        }
+
+        h5 {
+            font-family: ALKATIP;
+            font-size: 22px;
+            margin: 0px;
+        }
+
+        h6 {
+            font-family: ALKATIP;
+            font-size: 24px;
+            margin: 0px;
+        }
+
+        .h7 {
+            font-family: ALKATIP;
+            font-size: 26px;
+            margin: 0px;
+        }
+
+        hr {
+            color: #800000;
+        }
+
+        A:link {
+            color: #0000ff;
+        }
+
+        a:link.poster {
+            color: #800080;
+        }
+
+        A:hover {
+            color: #ff9900;
+        }
+
+        A:active {
+            color: #ff9900;
+        }
+
+        A:visited {
+            color: #cc0000;
+        }
+
+        A:visited:hover {
+            color: #ff9900;
+        }
+
+        a:link.title a:link.arabic {
+            color: #ff0000;
+        }
+
+        a:hover.arabic {
+            color: #ff0000;
+        }
+
+        a:active.arabic {
+            color: #ff9933;
+        }
+
+        a:link.qaida {
+            color: #cc6600;
+        }
+
+        a:visited.qaida {
+            color: #cc3300;
+        }
+
+        a:hover.qaida {
+            color: #ff9900;
+        }
+
+        a:active.qaida {
+            color: #ff9900;
+        }
+
+        a:visited:hover.qaida {
+            color: #ff9900;
+        }
+
+        .responsive {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .myaudio {
+            width: 90%;
+        }
+
+        .error {
+            font-weight: bold;
+            color: #ff0000;
+        }
+
+        .pad {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <script>document.write('<center><audio id="myaudio" >');
+    /* <!-- Remove above 'controls' attribute to hide player -->*/ document.write(
+            "</audio></center>"
+        );
+        document.write("<br>");
+        function playAudio(audioFile) {
+            document.write(
+                '<div class="pad"><button class="w3-margin-top" title="Play" onclick="toggleplaystop(\'' +
+                audioFile +
+                "')\">"
+            );
+            document.write('<span class="w3-text-blue w3-medium">&#9654;</span>');
+            document.write("</button></div>");
+            if (audioFile.indexOf("Surahs") != -1) {
+                document.write(
+                    '<div class="pad"><button class="w3-margin-top" title="Stop" onclick="togglestop(\'' +
+                    audioFile +
+                    "')\">"
+                );
+                document.write(
+                    '<span class="w3-text-deep-orange w3-medium">&#9641;</span>'
+                );
+                document.write("</button></div>");
+            }
+        }
+        function toggleplaystop(audioFile) {
+            // var myaudio = document.getElementById("myaudio");
+            // myaudio.setAttribute("src", audioFile);
+            // myaudio.play();
+            var msg = JSON.stringify({ t: "goUrlPlay", msg: audioFile });
+            if (window.Toaster != undefined) {
+                window.Toaster.postMessage(msg);
+            }
+        }
+        function togglestop(audioFile) {
+            // var myaudio = document.getElementById("myaudio");
+            // myaudio.pause();
+            var msg = JSON.stringify({ t: "goUrlPlayStop", msg: audioFile });
+            if (window.Toaster != undefined) {
+                window.Toaster.postMessage(msg);
+            }
+        }
+    </script>
+    <!--body-->
+    <script>
+        function go(e) {
+
+            var msg = JSON.stringify({ t: "goUrl", msg: e.innerText });
+            if (window.Toaster != undefined) {
+                window.Toaster.postMessage(msg);
+            }
+        }
+        function goSa(s, a) {
+            var msg = JSON.stringify({ t: "goUrlSA", s: s, a: a });
+            if (window.Toaster != undefined) {
+                window.Toaster.postMessage(msg);
+            }
+        }
+    </script>
+</body>
+
+</html>

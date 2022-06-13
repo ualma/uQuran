@@ -1,0 +1,127 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport"
+        content="initial-scale=1.0, width=device-width, height=device-height, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <style type="text/css">
+        /**app.font**/
+        html {
+            font-family: 'ALKATIP';
+        }
+
+        body {
+            background-color: #fef6e4;
+            color: #453e2d;
+            direction: rtl;
+            text-align: justify;
+            text-indent: 25px;
+        }
+
+        hr {
+            color: #453e2d;
+            background-color: #453e2d;
+            height: 1px;
+            border: none;
+        }
+
+        p {
+            font-size: 16px;
+            text-align: justify;
+            text-indent: 25px;
+            font-family: ALKATIP;
+            line-height: 200%;
+        }
+
+        .ibnikasirTitle {
+            font-size: 18px;
+            font-family: ALKATIP;
+            text-align: center;
+        }
+
+        .ibnikasirTitle span {
+            font-family: 'Traditional Arabic' !important;
+        }
+
+        .text-lang-ar {
+            font-family: 'Traditional Arabic' !important;
+            font-size: 20px;
+            line-height: 250%;
+        }
+
+        .text-lang-en {
+            font-family: 'Traditional Arabic' !important;
+            direction: ltr !important;
+            font-size: 16px;
+        }
+
+        .text-lang-uy {
+            font-weight: normal;
+        }
+
+        .hedis-lang-uy {
+            /* font-weight: bold; */
+            color: #3f51b5;
+        }
+
+        .text-itag {
+            font-family: ALKATIP;
+            /* font-weight: bold; */
+            color: #3f51b5;
+        }
+
+        .st {
+            width: 100%;
+            white-space: nowarp;
+        }
+
+        .st .a {
+            white-space: nowrap;
+        }
+
+        .st .b {
+            white-space: nowrap;
+        }
+
+        .st .stt {
+            font-family: 'Traditional Arabic' !important;
+            direction: rtl !important;
+            font-size: 20px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .ltr {
+            direction: ltr !important;
+        }
+
+        .rtl {
+            direction: rtl !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--body-->
+    <script>
+        function go(e) {
+
+            var msg = JSON.stringify({ t: "goUrl", msg: e.innerText });
+            if (window.Toaster != undefined) {
+                window.Toaster.postMessage(msg);
+            }
+        }
+        function goSa(s, a) {
+            var msg = JSON.stringify({ t: "goUrlSA", s: s, a: a });
+            if (window.Toaster != undefined) {
+                window.Toaster.postMessage(msg);
+            }
+        }
+    </script>
+</body>
+
+</html>
