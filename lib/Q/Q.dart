@@ -29,11 +29,6 @@ import 'SQL.dart';
 import 'Setting.dart';
 // import 'device.dart';
 
-//加密 http://local.host:7321/api/fileEndode.aspx
-//解密 http://local.host:7321/api/fileEndode.aspx?e=0
-
-//加密 http://local.host:7321/api/fileEndodeMd5.aspx
-//解密 http://local.host:7321/api/fileEndodeMd5.aspx?e=0
 class Q extends GetxController {
   String appVersion = '1.0.0';
   int appVersionNumber = 3;
