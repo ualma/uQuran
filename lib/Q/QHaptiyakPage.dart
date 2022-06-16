@@ -84,7 +84,9 @@ class _QHaptiyakPageState extends State<QHaptiyakPage> {
     var receivePort = ReceivePort();
     // Here runMyIsolate methos should be a top level function
     ByteData data = await rootBundle.load('assets/images/q/p.zip');
-    await Isolate.spawn(runMyIsolate, [receivePort.sendPort, q.mainPath, data]);
+    ByteData data1 = await rootBundle.load('assets/images/q/p1.zip');
+    await Isolate.spawn(
+        runMyIsolate, [receivePort.sendPort, q.mainPath, data, data1]);
     // print(await receivePort.first);
     receivePort.listen((date) {
       // print("Isolate 1 接受消息：data = $date");
@@ -108,7 +110,9 @@ class _QHaptiyakPageState extends State<QHaptiyakPage> {
     var sendPort = args[0] as SendPort;
     var hPath = args[1] as String;
     ByteData data = args[2] as ByteData;
+    ByteData data1 = args[3] as ByteData;
     await unZip(hPath, data);
+    await unZip(hPath, data1);
     // print("In runMyIsolate ");
     Isolate.exit(sendPort, args);
   }
@@ -124,6 +128,7 @@ class _QHaptiyakPageState extends State<QHaptiyakPage> {
         data.buffer.asUint8List(data.offsetInBytes, data.lengthInBytes);
 
     final archive = ZipDecoder().decodeBytes(bytes);
+    print("archive: ${archive.length}");
     for (final file in archive) {
       final filename = file.name;
       // print(filename);
